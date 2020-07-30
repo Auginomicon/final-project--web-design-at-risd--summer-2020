@@ -1,4 +1,7 @@
 body {
+   font-family: sans-serif;
+   font-family: m5x7;
+   font-size: 32px;
    color: #000;
    background-color: #E9F0EC;
 }
@@ -37,7 +40,6 @@ nav > ul > li {
    margin: 0;
    padding-top: 10px;
    padding-bottom: 10px;
-   font-size: 24px;
    justify-content: space-evenly;
    color: #000;
    background-color: #43E0DE;
