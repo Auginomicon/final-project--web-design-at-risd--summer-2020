@@ -24,6 +24,9 @@ nav a {
 nav a:hover {
    color: #000;
    background-color: #19A3FF;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: solid;
 }
 
 nav > ul {
@@ -37,7 +40,8 @@ nav > ul > li {
    position: relative;
    flex-grow: 1;
    margin: 0;
-   padding-bottom: 5px;
+   padding-top: 10px;
+   padding-bottom: 10px;
    font-size: 24px;
    justify-content: center;
    color: #000;
@@ -52,7 +56,6 @@ nav > ul > li > ul {
    position: absolute;
    justify-content: center;
    left: 0;
-   padding-bottom: 5px;
    visibility: hidden;
    color: #000;
    background-color: #147EC4;
