@@ -107,10 +107,12 @@ nav > ul > li > ul > li{
    width: 320px;
    margin-left: 41%;
    margin-top: 20px;
-   border: 4mm ridge #63DB64;
+   border: 4mm ridge #ABFF38;
    border-radius: 15px;
+   box-shadow: 10px 10px 5px #63DB64;
 }
 
 .name-display {
    font-size: 50px;
+   text-shadow: 1px 1px 2px #52B3FF;
 }
