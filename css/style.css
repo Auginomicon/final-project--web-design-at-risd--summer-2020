@@ -1,3 +1,8 @@
+body {
+   color: #000;
+   background-color: #46DBA7;
+}
+
 nav {
    position: sticky;
    top: 0;
@@ -18,7 +23,7 @@ nav a {
 
 nav a:hover {
    color: #000;
-   background-color: lightcyan;
+   background-color: #19A3FF;
 }
 
 nav > ul {
@@ -36,7 +41,7 @@ nav > ul > li {
    font-size: 24px;
    justify-content: center;
    color: #000;
-   background-color: cyan;
+   background-color: #147EC4;
 }
 
 nav > ul > li:hover > ul {
@@ -50,7 +55,7 @@ nav > ul > li > ul {
    padding-bottom: 5px;
    visibility: hidden;
    color: #000;
-   background-color: cyan;
+   background-color: #147EC4;
 }
 
 nav > ul > li > ul > a {
