@@ -106,7 +106,11 @@ nav > ul > li > ul > li{
    height: 420px;
    width: 320px;
    margin-left: 41%;
-   margin-top: 60px;
+   margin-top: 20px;
    border: 4mm ridge #63DB64;
    border-radius: 15px;
+}
+
+.name-display {
+   font-size: 50px;
 }
