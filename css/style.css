@@ -75,5 +75,38 @@ nav > ul > li > ul > li{
    justify-content: center;
    flex-flow: column;
    text-align: center;
-   margin-top: 5%
+   margin-top: 4%
+}
+
+.fade-in-photo{
+  animation: fadeIn ease 5s;
+}
+
+.fade-in-text-1 {
+   animation: fadeIn ease 2s;
+}
+
+.fade-in-text-2 {
+   animation: fadeIn ease 3s;
+}
+
+.fade-in-text-3 {
+   animation: fadeIn ease 4s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+   }
+}
+
+.photo {
+   height: 420px;
+   width: 320px;
+   margin-left: 41%;
+   margin-top: 60px;
+   border: 4mm ridge #63DB64;
+   border-radius: 15px;
 }
