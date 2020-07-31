@@ -9,7 +9,7 @@ body {
 nav {
    position: sticky;
    top: 0;
-   width: 500px;
+   width: 700px;
    height: 150px;
    justify-content: space-evenly;
    margin: auto auto;
@@ -115,4 +115,125 @@ nav > ul > li > ul > li{
 .name-display {
    font-size: 50px;
    text-shadow: 1px 1px 2px #52B3FF;
+}
+
+.resume-box {
+   text-align: center;
+   margin-top: 45px;
+}
+
+.about-content {
+   text-align: left;
+   margin-left: 2%;
+   font-size: 34px;
+}
+.section {
+   margin-top: 20px;
+}
+
+span {
+   font-size: 39px;
+   font-weight: bold;
+   text-decoration: underline;
+   text-shadow: 1px 1px 2px #52B3FF;
+}
+
+.photo-about {
+   height: 620px;
+   width: 500px;
+   margin-left: 36%;
+   border: 4mm ridge #ABFF38;
+   border-radius: 15px;
+   box-shadow: 10px 10px 5px #63DB64;
+}
+.code-languages {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 60px;
+}
+
+.slider-wrap {
+   font-weight: bold;
+   text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+}
+
+.sliding-text {
+   height: 50px;
+   padding-left: 15px;
+}
+
+.sliding-text div {
+   height: 50px;
+   margin-bottom: 50px;
+   text-align: center;
+   box-sizing: border-box;
+   border: solid #000;
+   border-radius: 5px;
+}
+
+.slider-text1 {
+   color: white;
+   background-color: #E02EE8;
+   animation: slide 5s linear infinite;
+}
+
+.slider-text2 {
+   color: white;
+   background-color: #3077F2;
+}
+
+.slider-text3 {
+   color: white;
+   background-color: #37DB68;
+}
+
+.slider-text4 {
+   color: white;
+   background-color: #F2DF30;
+}
+
+.slider-text5 {
+   color: white;
+   background-color: #EB8F61;
+}
+
+.slider-text6 {
+   color: white;
+   background-color: #DB595E;
+}
+
+.slider-text7 {
+   color: white;
+   background-color: #868FEB;
+}
+
+.slider-text8 {
+   color: white;
+   background-color: #C657F2;
+}
+
+@keyframes slide {
+   0% {margin-top: -800px;}
+   5% {margin-top: -700px;}
+   10% {margin-top: -700px;}
+   16% {margin-top: -700px;}
+   19% {margin-top: -600px;}
+   28% {margin-top: -600px;}
+   34% {margin-top: -500px;}
+   40% {margin-top: -500px;}
+   45% {margin-top: -400px;}
+   52% {margin-top: -400px;}
+   57% {margin-top: -300px;}
+   64% {margin-top: -300px;}
+   69% {margin-top: -200px;}
+   76% {margin-top: -200px;}
+   81% {margin-top: -100px;}
+   88% {margin-top: -100px;}
+   93% {margin-top: 0px;}
+   100% {margin-top: 0px;}
 }
