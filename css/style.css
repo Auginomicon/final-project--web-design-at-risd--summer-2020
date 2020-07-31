@@ -333,8 +333,6 @@ object {
 
 .credit {
    display: flex;
-   align-items: flex-end;
-   align-self: flex-end;
    justify-content: center;
    margin-top: 15%;
 }
