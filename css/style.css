@@ -140,7 +140,7 @@ span {
 
 .photo-about {
    height: 620px;
-   width: 500px;
+   width: 520px;
    margin-left: 36%;
    border: 4mm ridge #ABFF38;
    border-radius: 15px;
@@ -236,4 +236,63 @@ span {
    88% {margin-top: -100px;}
    93% {margin-top: 0px;}
    100% {margin-top: 0px;}
+}
+
+.art-3d {
+   width: 480px;
+   height: 270px;
+   border: 4mm ridge #ABFF38;
+   border-radius: 10px;
+}
+
+.art-3d + div{
+   visibility: hidden;
+   margin-top: -80px;
+   color: white;
+   background-color: #000;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 40px;
+}
+
+.art-3d:hover{
+   opacity: 0.3;
+}
+
+.art-3d:hover + div{
+   visibility: visible;
+}
+
+.container-art {
+   display: flex;
+   justify-content: center;
+   flex-flow: row;
+   flex-wrap: wrap;
+   text-align: center;
+   margin-top: 3%;
+   margin-bottom: 5%;
+}
+
+.pixel-artwork-box{
+   border: 4mm ridge #ABFF38;
+   color: #000;
+   background-color: #D4D2CB;
+}
+
+.art-pixel + div{
+   visibility: hidden;
+   color: white;
+   background-color: #000;
+   padding-left: 1px;
+   padding-right: 1px;
+   margin-left: 52px;
+   margin-right: 52px;
+}
+
+.art-pixel:hover{
+   opacity: 0.3;
+}
+
+.art-pixel:hover + div{
+   visibility: visible;
 }
