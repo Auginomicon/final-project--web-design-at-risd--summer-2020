@@ -8,6 +8,7 @@ body {
 
 nav {
    position: sticky;
+   z-index: 1000;
    top: 0;
    width: 700px;
    height: 150px;
